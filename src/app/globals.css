@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap');
+
+:root {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y:visible;
+}
+
+button {
+  font-family: 'Lato', sans-serif;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  --lightPrimaryBg: #F7F9FE;
+  --lightSecondaryBg: #EDF2F8;
+  --primaryButtonBg: #405265;
+  --primaryYellow: #BF9A02;
+  --buttonText: #E3F1F9;
+  --lightPrimaryText: #3A3D41;
+  --lightSecondaryText: #71767C;
+  --lightFocusText: #14171B;
+  --lightTertiaryText: #CACACB;
+  --darkLink: #056FBC;
+  --highlightedRedText: #E50B20;
+  --darkPrimaryBg: #1A232A;
+  --darkFocusText: #F5FAFC;
+  --darkPrimaryText: #D2DAE2;
+  --darkSecondaryBg: #2D343E;
+  --basicBlack: #1b1b1b;
+  --greyShadow: #434343;
+  --lightLink: #334862;
+  --lightGreen: #17B31B;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw700 {
+  font-weight: 700;
+}
