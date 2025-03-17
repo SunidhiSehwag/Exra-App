@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap'); */
 
 :root {
   font-family: 'Lato', sans-serif;
@@ -6,7 +6,10 @@
   overflow-x: hidden;
   overflow-y:visible;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+}
 button {
   font-family: 'Lato', sans-serif;
 }
@@ -21,26 +24,12 @@ body {
 
 html {
   --lightPrimaryBg: #F7F9FE;
-  --lightSecondaryBg: #EDF2F8;
-  --primaryButtonBg: #405265;
-  --primaryYellow: #BF9A02;
-  --buttonText: #E3F1F9;
-  --lightPrimaryText: #3A3D41;
-  --lightSecondaryText: #71767C;
-  --lightFocusText: #14171B;
-  --lightTertiaryText: #CACACB;
-  --darkLink: #056FBC;
-  --highlightedRedText: #E50B20;
-  --darkPrimaryBg: #1A232A;
-  --darkFocusText: #F5FAFC;
-  --darkPrimaryText: #D2DAE2;
-  --darkSecondaryBg: #2D343E;
-  --basicBlack: #1b1b1b;
-  --greyShadow: #434343;
-  --lightLink: #334862;
-  --lightGreen: #17B31B;
+  --lightText: #827979;
   --black: #000000;
   --white: #ffffff;
+  --darkPink: #8a615c;
+  --lightPink: #e9c3ad;
+  --lightestPink:#F5DED1;
 }
 
 .fw400 {

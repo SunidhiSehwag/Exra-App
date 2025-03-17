@@ -1,0 +1,37 @@
+.banner1 {
+    background-color: var(--lightestPink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 350px;
+    margin: 50px;
+    border: none;
+    border-radius: 15px;
+    color: var(--lightText);
+}
+.banner1Image {
+    height: 270px;
+    width: 270px;
+    opacity: 50%;
+}
+.smallQuote {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.regularText {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.doneButton {
+    color: var(--white);
+    background-color: var(--darkPink);
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}

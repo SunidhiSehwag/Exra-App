@@ -1,0 +1,35 @@
+.header {
+    background-color: var(--lightestPink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exraLogo {
+    margin: 10px;
+}
+.headerElements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.headerList li {
+    color: var(--lightText);
+    font-weight: bold;
+    margin: 0px 40px 0px 40px;
+    font-size: 18px;
+}
+.startButton { 
+    background-color: var(--darkPink);
+    color: var(--white);
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 35px;
+    margin-right: 30px;
+}
