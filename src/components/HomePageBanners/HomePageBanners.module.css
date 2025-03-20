@@ -1,14 +1,20 @@
+.banners {
+    display: flex;
+    margin: 50px;
+    gap: 5%;
+    justify-content: center;
+}
 .banner1 {
     background-color: var(--lightestPink);
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
-    width: 350px;
-    margin: 50px;
+    height: 530px;
+    width: 380px;
     border: none;
     border-radius: 15px;
     color: var(--lightText);
+    text-align: center;
 }
 .banner1Image {
     height: 270px;
@@ -22,8 +28,8 @@
     margin-bottom: 10px;
 }
 .regularText {
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 300;
     margin-top: 8px;
 }
 .doneButton {
@@ -34,4 +40,23 @@
     border-radius: 10px;
     padding: 10px;
     margin-top: 15px;
+}
+.banner2 {
+    background-color: var(--lightestPink);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 220px;
+    width: 650px;
+    border: none;
+    border-radius: 15px;
+    color: var(--lightText);
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.bannerheading {
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: uppercase;
 }

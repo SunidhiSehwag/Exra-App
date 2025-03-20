@@ -1,8 +1,8 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-import { ExraLogo } from '@/helpers/images';
+import { ExraLogo } from "@/helpers/images";
 
-import classes from './Header.module.css';
+import classes from "./Header.module.css";
 
 const Header=()=>{
     return(
@@ -23,6 +23,6 @@ const Header=()=>{
                 Start Now
             </button>
         </div>
-    )
-}
+    );
+};
 export default Header;
